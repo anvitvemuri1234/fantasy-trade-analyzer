@@ -9,14 +9,13 @@ from engine import (
 
 # Page configuration
 st.set_page_config(
-    page_title="Fantasy Trade Quant",
-    page_icon="🏈",
+    page_title="Fantasy Trades",
+    page_icon="",
     layout="wide"
 )
 
 # Custom header styling
-st.title("🏈 Quantitative Fantasy Football Trade Optimizer")
-st.caption("VORP • Expected Value Optimization • Roster Scarcity Heuristics")
+st.title("Fantasy Football Trade Finder")
 
 # Sidebar: League Configuration
 with st.sidebar:
